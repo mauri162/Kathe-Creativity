@@ -1,0 +1,14 @@
+//! variables
+$colores:#C70057,#C60155,white,blanchedalmond;
+
+.nav-link{
+    color: nth($colores, 2)
+}
+//! extens
+%flex-center{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    @extend %flex-center
+}

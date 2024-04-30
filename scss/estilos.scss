@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#FDC0C0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ header{
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    nav{
+        background-color: white;
+        ul{
+            list-style: none;
+            
+            li{
+                margin: 10px;
+                display: inline-block;
+                font-size: 20px
+            }
+                a{
+                    text-decoration: none;
+                    color: #C70057;
+                }
+            
+                }
+            }
+        }
+            .portada{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr
+            }
+            .portada img{
+                width: 100%;
+                height: 300px;
+             }
+    
+        
+        
+        
+    }
+        h1{
+            color:#C60155;
+            text-align: center;
+        }
+        p{
+            color: #C60155;
+        }
+        div p{
+            margin: 30px;
+            
+        }
+        div{
+            margin: 20px;
+        }
+        
+        
+        .productos1{
+            display: flex;
+            justify-content: space-around;
+         div{
+            background-color: white;
+            padding-bottom: 70px;
+            width: 320px;
+            height: 510px;
+            text-align: center;
+        }    
+            
+         img{
+            margin: 10px;
+            width: 300px;
+            height: 300px;
+        }
+         a{
+            background-color: blanchedalmond;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            color: #C70057;
+            text-size-adjust: 15px;
+            &:hover{
+                background-color: #C60155;
+                color: white;
+            }
+            }
+        }
+        
+        .productos2{
+            display: flex;
+            justify-content: space-around;
+        
+        
+         div{
+            background-color: white;
+            padding-bottom: 70px;
+            width: 320px;
+            height: 510px;
+            text-align: center;
+        }    
+            
+         img{
+            margin: 10px;
+            width: 300px;
+            height: 300px;
+        }
+         a{
+            background-color: blanchedalmond;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            color: #C70057;
+            text-size-adjust: 15px;
+            &:hover{
+                background-color: #C60155;
+                color: white;
+            }
+            }
+        }
+        
+        .productos3{
+                display: flex;
+                justify-content: space-around;
+            
+            
+            div{
+               background-color: white;
+               padding-bottom: 100px;
+                width: 320px;
+                height: 400px;
+                text-align: center;
+                }    
+                
+            img{
+                margin: 10px;
+                width: 300px;
+                height: 300px;
+            }
+            
+            a{
+                background-color: blanchedalmond;
+                text-decoration: none;
+                margin: 10px;
+                padding: 10px;
+                color: #C70057;
+                text-size-adjust: 15px;
+                &:hover{
+                    background-color: #C60155;
+                    color: white;
+                }
+                }
+            }
+
+            .productos4{
+                display: flex;
+                justify-content: space-around;
+            
+            
+            div{
+                background-color: white;
+                padding-bottom: 70px;
+                width: 320px;
+                height: 400px;
+                text-align: center;
+                }    
+                
+            img{
+                margin: 10px;
+                width: 300px;
+                height: 300px;
+            }
+            a{
+                background-color: blanchedalmond;
+                text-decoration: none;
+                margin: 10px;
+                padding: 10px;
+                color: #C70057;
+                text-size-adjust: 15px;
+                &:hover{
+                    background-color: #C60155;
+                    color: white;
+                }        
+                }
+            }
+
+                footer{
+                    background-color: white;
+                    
+                
+                
+                img{
+                    height: 50px;
+                }
+            }
+                
+                .contacto{
+                    text-align: center;
+                    align-items: center;
+                }
+                label{color: #C70057;
+                     }
+
+                @media screen and (max-width:700px){
+                    .productos1{
+                    flex-direction: column;
+                    align-items: center;
+                    }
+                    }
+                    @media screen and (max-width:700px){
+                        .productos2{
+                        flex-direction: column;
+                        align-items: center;
+                        }
+                        }
+                     @media screen and (max-width:700px){
+                            .productos3{
+                            flex-direction: column;
+                            align-items: center;
+                            }
+                            }
+                            @media screen and (max-width:700px){
+                                .productos4{
+                                flex-direction: column;
+                                align-items: center;
+                                }
+                                }
+                                @media screen and (max-width:425px){
+                                    .portada{
+                                    display: none;
+                                    }
+                                    }
+    
+@import "./operaciones"
