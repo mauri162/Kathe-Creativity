@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box; }
 
 body {
@@ -26,127 +26,125 @@ body {
   body .portada img {
     width: 100%;
     height: 300px; }
-
-h1 {
-  color: #C60155;
-  text-align: center; }
-
-p {
-  color: #C60155; }
-
-div p {
-  margin: 30px; }
-
-div {
-  margin: 20px; }
-
-.productos1 {
-  display: flex;
-  justify-content: space-around; }
-  .productos1 div {
-    background-color: white;
-    padding-bottom: 70px;
-    width: 320px;
-    height: 510px;
+  body h1 {
+    color: #C60155;
     text-align: center; }
-  .productos1 img {
-    margin: 10px;
-    width: 300px;
-    height: 300px; }
-  .productos1 a {
-    background-color: blanchedalmond;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
-    color: #C70057;
-    text-size-adjust: 15px; }
-    .productos1 a:hover {
-      background-color: #C60155;
-      color: white; }
-
-.productos2 {
-  display: flex;
-  justify-content: space-around; }
-  .productos2 div {
-    background-color: white;
-    padding-bottom: 70px;
-    width: 320px;
-    height: 510px;
+  body p {
+    color: #C60155; }
+  body div p {
+    margin: 30px; }
+  body div {
+    margin: 20px; }
+  body .productos1 {
+    display: flex;
+    justify-content: space-around; }
+    body .productos1 div {
+      background-color: white;
+      padding-bottom: 70px;
+      width: 320px;
+      height: 510px;
+      text-align: center; }
+    body .productos1 img {
+      margin: 10px;
+      width: 300px;
+      height: 300px; }
+    body .productos1 a {
+      background-color: blanchedalmond;
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px;
+      color: #C70057;
+      text-size-adjust: 15px; }
+      body .productos1 a:hover {
+        background-color: #C60155;
+        color: white; }
+  body .productos2 {
+    display: flex;
+    justify-content: space-around; }
+    body .productos2 div {
+      background-color: white;
+      padding-bottom: 70px;
+      width: 320px;
+      height: 510px;
+      text-align: center; }
+    body .productos2 img {
+      margin: 10px;
+      width: 300px;
+      height: 300px; }
+    body .productos2 a {
+      background-color: blanchedalmond;
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px;
+      color: #C70057;
+      text-size-adjust: 15px; }
+      body .productos2 a:hover {
+        background-color: #C60155;
+        color: white; }
+  body .productos3 {
+    display: flex;
+    justify-content: space-around; }
+    body .productos3 div {
+      background-color: white;
+      padding-bottom: 100px;
+      width: 320px;
+      height: 400px;
+      text-align: center; }
+    body .productos3 img {
+      margin: 10px;
+      width: 300px;
+      height: 300px; }
+    body .productos3 a {
+      background-color: blanchedalmond;
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px;
+      color: #C70057;
+      text-size-adjust: 15px; }
+      body .productos3 a:hover {
+        background-color: #C60155;
+        color: white; }
+  body .productos4 {
+    display: flex;
+    justify-content: space-around; }
+    body .productos4 div {
+      background-color: white;
+      padding-bottom: 70px;
+      width: 320px;
+      height: 400px;
+      text-align: center; }
+    body .productos4 img {
+      margin: 10px;
+      width: 300px;
+      height: 300px; }
+    body .productos4 a {
+      background-color: blanchedalmond;
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px;
+      color: #C70057;
+      text-size-adjust: 15px; }
+      body .productos4 a:hover {
+        background-color: #C60155;
+        color: white; }
+  body footer {
+    background-color: white; }
+    body footer img {
+      height: 50px; }
+  body .contacto {
     text-align: center; }
-  .productos2 img {
-    margin: 10px;
-    width: 300px;
-    height: 300px; }
-  .productos2 a {
-    background-color: blanchedalmond;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
-    color: #C70057;
-    text-size-adjust: 15px; }
-    .productos2 a:hover {
-      background-color: #C60155;
-      color: white; }
-
-.productos3 {
-  display: flex;
-  justify-content: space-around; }
-  .productos3 div {
-    background-color: white;
-    padding-bottom: 100px;
-    width: 320px;
-    height: 400px;
-    text-align: center; }
-  .productos3 img {
-    margin: 10px;
-    width: 300px;
-    height: 300px; }
-  .productos3 a {
-    background-color: blanchedalmond;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
-    color: #C70057;
-    text-size-adjust: 15px; }
-    .productos3 a:hover {
-      background-color: #C60155;
-      color: white; }
-
-.productos4 {
-  display: flex;
-  justify-content: space-around; }
-  .productos4 div {
-    background-color: white;
-    padding-bottom: 70px;
-    width: 320px;
-    height: 400px;
-    text-align: center; }
-  .productos4 img {
-    margin: 10px;
-    width: 300px;
-    height: 300px; }
-  .productos4 a {
-    background-color: blanchedalmond;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
-    color: #C70057;
-    text-size-adjust: 15px; }
-    .productos4 a:hover {
-      background-color: #C60155;
-      color: white; }
-
-footer {
-  background-color: white; }
-  footer img {
-    height: 50px; }
-
-.contacto {
-  text-align: center;
-  align-items: center; }
-
-label {
-  color: #C70057; }
+    body .contacto a {
+      background-color: blanchedalmond;
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px;
+      color: #C70057;
+      text-size-adjust: 15px; }
+      body .contacto a:hover {
+        background-color: #C60155;
+        color: white; }
+    body .contacto label {
+      color: #C70057; }
 
 @media screen and (max-width: 700px) {
   .productos1 {
